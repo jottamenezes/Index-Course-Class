@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garden Example 1 </title>
+
+
     <!-- We are going to be adding new fonts here, they have to be inside the head tag -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+
 
 
     <style>
@@ -18,6 +24,10 @@
             padding: 0; */
             background-color: black;
        }
+
+
+   
+
 
 .flow {
     /* We will dive deeper into different displays for layout next classs */
@@ -33,11 +43,45 @@
         /* We are going to use our custom fonts here, when they are in the header they are just permitting us to use them as a property */
 
 
+        h1 {
+
+       
+font-family: 'Sigmar', cursive;
+font-size: 5em;
+margin: 40px;
+
+/* padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 100px;
+padding-left: 80px;
+THIS is the SAME as writing what I have below
+*/
+padding: 30px 30px 100px 80px;
+
+background-color: greenyellow;
+
+
+}
+
+p {
+    z-index: 1;
+}
+
 
 
 /* Here we are going to learn how to use position to change the place where an element is "supposed to land" */
 
 #move {
+    position: relative;
+    top: -200px;
+    right: -300px;
+
+    width: 30%;
+
+    z-index: -1;
+
+
+
 }
 
 /* On the image overllap div we are going to learnn how to use display block and opacity to hide and show a given elemnent */
@@ -54,10 +98,23 @@
     /* width: 25%;
 
     border: 10px solid blue;
-    margin: 2%; */
+    margin: 2%; */    
 
-    
+   
 }
+
+#imgOverlap img:hover {
+    background-color:chartreuse;
+
+    width: 50%;
+
+    display: none;
+
+
+
+}
+
+
 
 
 
