@@ -13,6 +13,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
 
 
+<!-- Custom font from Adobe -->
+
+<link rel="stylesheet" href="https://use.typekit.net/dsr1mvb.css">
 
     <style>
 
@@ -68,6 +71,15 @@ p {
 }
 
 
+h3 {
+    font-family: parry,sans-serif;
+font-weight: 700;
+font-style: italic;
+
+font-size: 80px;
+}
+
+
 
 /* Here we are going to learn how to use position to change the place where an element is "supposed to land" */
 
@@ -114,8 +126,53 @@ p {
 
 }
 
+/* Audio container */
+.audio-container {
+  width: 1000px;
+  margin: 200px;
+
+  /* height: 100vh; */
+
+}
 
 
+/* changing appearance of audio player */
+
+.audio-player {
+    background-color: blue;
+  
+
+}
+
+
+.audio-player {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+}
+.audio-player audio {
+  width: 100%;
+}
+
+.audio-player audio::-webkit-media-controls-panel {
+  background-color: red;
+  border-radius: 5px;
+}
+
+.audio-player audio::-webkit-media-controls-play-button {
+  background-color: blueviolet;
+}
+
+.audio-player audio::-webkit-media-controls-volume-slider {
+  width: 80px;
+}
+
+
+.videostyle {
+    background-color: blue;
+    display: block;
+    width: 100%;
+}
 
 
 
@@ -152,6 +209,50 @@ p {
 
             </div>
        
+
+            <!-- easiest way to add audio to a page -->
+
+            <div class="audio-container">
+                <div class="audio-player">
+
+        
+                <audio controls>
+                    <source src="images/soundfx/Woodpecker.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            </div>
+
+
+            
+
+            <video src="images/Powers of Ten™ (1977).mp4"  controls>
+
+            </video>
+
+
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/jq0SQkM7xBc?start=20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
+
+            <iframe class="videostyle" src="https://player.vimeo.com/video/826026805?h=56119082f9&title=0&byline=0&portrait=0" width="800" height="400" frameborder="100px" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+
+            <h3>
+                Testing customn adobe fonnt
+            </h3>
+
+
+<p><a href="https://vimeo.com/826026805">Generation Vimeo - Celebrating 15 Years of Staff Picks</a> from <a href="https://vimeo.com/vimeocuration">Vimeo Curation</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
+              <!-- a way to add your videos to the Page -->
+
+              <!-- <video src="images/Powers of Ten™ (1977).mp4" controls>
+                Your browser does not support the video tag.
+              </video> -->
+
+
+              <!-- Teach how to embed from vimeo and youtube -->
     </section>
 </body>
 
