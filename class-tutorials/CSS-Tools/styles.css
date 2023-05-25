@@ -1,0 +1,158 @@
+
+body {
+	font-family: Arial;
+	color:#333;
+}
+
+h1 {
+	margin: 10% 0 5%;
+
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+div {
+	margin: 0 auto 100px auto;
+	width: 80%;
+	height: 200px;
+	background: #ccc;
+}
+
+
+
+#box1 {
+
+
+	
+	/* background: rgb(63,94,251);
+	background: linear-gradient(34deg, rgba(63,94,251,1) 0%, rgba(31,180,112,1) 100%); */
+}
+
+#box2 {
+
+/* 
+	background: rgb(63,94,251);
+	background: linear-gradient(51deg, rgba(63,94,251,1) -50%, rgba(54,117,213,1) 12%, rgba(255,103,71,1) 47%, rgba(36,37,165,1) 79%, rgba(6,224,125,1) 120%); */
+}
+
+
+#box3 {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+
+/* 	
+	background: rgb(83,58,180);
+background: radial-gradient(circle, rgba(83,58,180,1) 0%, rgba(253,29,29,1) 61%, rgba(252,176,69,1) 100%); */
+
+} 
+
+#box4 {
+
+	/* background-color: #4158D0;
+	background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+	
+/* 
+  box-shadow: 0px 0px 30px 0px rgba(47, 49, 255, 0.71); */
+
+
+}
+
+#box5 {
+
+
+	/* box-shadow: inset 1px 4px 19px 9px rgba(57, 18, 111, 0.75);
+	background-color: #FF9A8B;
+	background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%); */
+	
+
+	  
+}
+
+#box6 {
+
+	background-color: #e5e5f7;
+/* opacity: 0.8; */
+/* background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 9px ), repeating-linear-gradient( #f3477c55, #f3477c ); */
+	
+
+	
+
+	
+	  
+}
+
+
+#box7 {
+
+
+	/* This is a more complex pattern design in which the designer is using CSS variables to accomplish and conntrol the fiinal result. */
+
+
+
+	
+	/* control the size */ /* --s: 200px;
+	/* --c1: #e6f895;
+	--c2: #2d84d0;
+	
+	--_g: 
+	   var(--c2) 6%  14%,var(--c1) 16% 24%,var(--c2) 26% 34%,var(--c1) 36% 44%,
+	   var(--c2) 46% 54%,var(--c1) 56% 64%,var(--c2) 66% 74%,var(--c1) 76% 84%,var(--c2) 86% 94%;
+
+
+	background:
+    radial-gradient(100% 100% at 100% 0,var(--c1) 4%,var(--_g),#0008 96%,#0000),
+    radial-gradient(100% 100% at 0 100%,#0000, #0008 4%,var(--_g),var(--c1) 96%)
+    var(--c1);
+  background-size: var(--s) var(--s); */
+
+/* 
+Example 2
+
+  background:
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px; */
+
+
+
+	/* Example 3
+
+	--s: 76px; 
+
+  --c: #1a144a;
+  --_g: conic-gradient(var(--c) 25%,#0000 0) 0 0;
+  background:
+    var(--_g)/calc(2*var(--s)) calc(var(--s)/9.5),
+    var(--_g)/calc(var(--s)/9.5) calc(2*var(--s)),
+    repeating-conic-gradient(#0000 0 25%,var(--c) 0 50%) 
+     var(--s) 0 /calc(2*var(--s)) calc(2*var(--s)),
+    radial-gradient(50% 50%,#2eb044 98%,var(--c)) 
+     0 0/var(--s) var(--s); */
+
+}
+
+#box8 {
+	/* background-image: url(images/skull-whitebg.svg); */
+	background-repeat: no-repeat;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
